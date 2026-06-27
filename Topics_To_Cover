@@ -1,0 +1,119 @@
+# System Design — Complete Learning Roadmap (Beginner to Advanced)
+
+## How to use this list
+- Go topic by topic, in order
+- Don't skip ahead — each group builds on the previous
+- For each topic: read it, ask for notes, ask for diagrams, test yourself
+
+===========================================================
+## PHASE 1: Networking Foundations
+(You need this before anything else)
+===========================================================
+
+1.  Client-Server Model          ← you already did this
+2.  IP Addresses & Ports
+3.  DNS (Domain Name System)
+4.  HTTP & HTTPS
+5.  TCP vs UDP
+6.  REST APIs
+7.  WebSockets
+
+===========================================================
+## PHASE 2: How the Web Actually Works
+(What happens behind the scenes of every request)
+===========================================================
+
+8.  What happens when you type a URL and hit Enter
+        (this topic ties Phase 1 together — very important)
+9.  Latency vs Throughput
+10. Bandwidth
+11. Proxies & Reverse Proxies
+
+===========================================================
+## PHASE 3: Scalability
+(You already did the intro — now go deep)
+===========================================================
+
+12. Vertical vs Horizontal Scaling  ← you already did this
+13. Load Balancers
+14. Caching (what it is, why it matters)
+15. Cache strategies (Cache-aside, Write-through, Write-back)
+16. CDN (Content Delivery Network)
+
+===========================================================
+## PHASE 4: Data Storage
+(Databases are where most systems live or die)
+===========================================================
+
+17. Relational Databases (SQL) — how they work
+18. Non-relational Databases (NoSQL) — types and when to use
+19. SQL vs NoSQL — how to choose
+20. Indexes — what they are and why they matter
+21. Database Replication (Primary-Replica)
+22. Database Sharding
+23. CAP Theorem
+
+===========================================================
+## PHASE 5: Reliability & Availability
+(Making systems that don't go down)
+===========================================================
+
+24. Availability & Uptime (the "nines" — 99.9%, 99.99%)
+25. Fault Tolerance & Redundancy
+26. Single Points of Failure
+27. Rate Limiting
+28. Consistent Hashing
+
+===========================================================
+## PHASE 6: Advanced Components
+(The building blocks of large-scale systems)
+===========================================================
+
+29. Message Queues (Kafka, RabbitMQ — what and why)
+30. Pub/Sub Pattern
+31. Blob Storage (S3 — storing images, videos, files)
+32. Search Systems (Elasticsearch — how search works at scale)
+33. API Gateway
+
+===========================================================
+## PHASE 7: Putting It All Together
+(System design thinking and patterns)
+===========================================================
+
+34. Microservices vs Monolith
+35. Event-Driven Architecture
+36. Back-of-the-envelope estimation
+        (estimating scale: users, storage, requests per second)
+37. How to approach a system design interview / problem
+
+===========================================================
+## PHASE 8: Practice — Design Real Systems
+(Apply everything you learned)
+===========================================================
+
+38. Design a URL Shortener (like bit.ly)        ← start here
+39. Design a Rate Limiter
+40. Design a Key-Value Store
+41. Design a Pastebin
+42. Design Twitter / X feed
+43. Design YouTube
+44. Design WhatsApp / chat system
+45. Design Instagram
+46. Design Uber / ride-sharing
+47. Design Google Drive / Dropbox
+48. Design a Web Crawler
+49. Design a Notification System
+50. Design a Search Autocomplete
+
+===========================================================
+## QUICK REFERENCE — what each phase unlocks
+===========================================================
+
+Phase 1 → you understand HOW computers talk
+Phase 2 → you understand WHAT happens in a real request
+Phase 3 → you understand HOW to handle more users
+Phase 4 → you understand HOW to store and retrieve data at scale
+Phase 5 → you understand HOW to build systems that don't fail
+Phase 6 → you understand the COMPONENTS used in large systems
+Phase 7 → you can THINK like a system designer
+Phase 8 → you can DESIGN real systems from scratch
