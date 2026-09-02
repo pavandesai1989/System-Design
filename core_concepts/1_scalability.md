@@ -1,6 +1,4 @@
 
-
-````markdown
 # Scalability
 
 As an application grows, its **load** grows too:
