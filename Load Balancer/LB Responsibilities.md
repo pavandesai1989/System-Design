@@ -1,5 +1,3 @@
-Absolutely. Below is the **actual Markdown content only**. Copy everything inside the block into `load-balancer.md`.
-
 ````markdown
 # Load Balancer — Responsibilities
 
