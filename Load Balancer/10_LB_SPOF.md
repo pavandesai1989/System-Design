@@ -59,7 +59,3 @@ Client ──────┤
 
 In cloud environments, managed Load Balancers are typically deployed redundantly across multiple Availability Zones, so this redundancy is handled by the cloud provider.
 
-```
-
-For your notes, **don't include exact failover times, heartbeat intervals, AWS pricing, or specific implementation details**. Those are unnecessary at this stage.
-```
