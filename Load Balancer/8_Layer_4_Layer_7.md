@@ -7,6 +7,28 @@ Load Balancers can operate at different layers of the network stack.
 
 The layer determines **how much information the Load Balancer can inspect** when making routing decisions.
 
+        OSI Model
+        ─────────
+
+Layer 7 → Application     ← HTTP, HTTPS
+Layer 6 → Presentation
+Layer 5 → Session
+Layer 4 → Transport       ← TCP, UDP
+Layer 3 → Network         ← IP
+Layer 2 → Data Link
+Layer 1 → Physical
+
+Why Layer 4 Load Balancer?
+
+Because it operates primarily using information from the Transport Layer (Layer 4).
+
+At Layer 4, the important information includes:
+
+TCP / UDP
+Source Port
+Destination Port
+Connection
+
 ---
 
 ### Layer 4 Load Balancing
