@@ -1,4 +1,10 @@
+So when someone says "L4 Load Balancer", think:
 
+"It makes routing decisions using Transport Layer information."
+
+And "L7 Load Balancer" means:
+
+"It understands the Application Layer, such as HTTP."
 
 ````markdown
 ## Layer 4 vs Layer 7 Load Balancing
