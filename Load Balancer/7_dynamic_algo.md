@@ -181,6 +181,4 @@ LEAST RESPONSE TIME
 > **Dynamic = Look at the current server state.**
 
 ```
-
-**For interviews:** this is enough depth. You don't need to go deeper into every dynamic algorithm unless the interviewer specifically asks.
 ```
